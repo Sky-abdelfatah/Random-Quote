@@ -47,10 +47,7 @@ const quote = [//array of objects
     text: "{ فَقُلْتُ اسْتَغْفِرُوا رَبَّكُمْ إِنَّهُ كَانَ غَفَّارًا}",
     author: "سوره نوح ايه:10",
   },
-  {
-    text: "“Life is about accepting the challenges along the way, choosing to keep moving forward, and savoring the journey.”",
-    author: "— Roy T. Bennett",
-  },
+
   {
     text: "{وَإِذَا قُرِئَ الْقُرْآنُ فَاسْتَمِعُوا لَهُ وَأَنْصِتُوا لَعَلَّكُمْ تُرْحَمُونَ}",
     author: "سوره الاعراف ايه:204",
