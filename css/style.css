@@ -1,0 +1,83 @@
+/*===== Global =====*/
+:root {
+  --main-font: "Ysabeau Office", sans-serif;
+  --heading-font: "Diphylleia", serif;
+}
+
+
+
+body {
+  font-family: var(--main-font);
+  letter-spacing: 0.8px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  
+}
+
+.adjust-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.btn-main {
+  background-image: linear-gradient(
+    to right,
+    rgba(3, 183, 199, 0.364),
+    rgba(159, 6, 183, 0.367)
+  );
+  border-radius: 100vh;
+  border: inherit;
+  --bs-btn-color: #ffffffee;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(105, 51, 115);
+  --bs-btn-hover-border-color: rgb(51, 97, 115);
+  letter-spacing: 1px;
+  font-weight: bolder;
+  box-shadow: 1px 3px 7px -5px #0b3d4fc4;
+}
+
+
+.home {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #03b3c727, #b806ac27),
+    url(../img/abstract_pattern_design_background_2007.jpg); 
+}
+
+.card {
+  background-color: #fcedfbbd;
+  box-shadow: 3px 3px 17px -8px #00000091;
+}
+
+h1 {
+
+  text-shadow: -2px 1px 0px #00518030;
+}
+
+h1::first-letter {
+  font-size: 63px;
+  padding-right: 5px;
+  padding-top: 2px;
+  color: #0b1a4f8f;
+  font-weight: 500;
+}
+
+
+#quote {
+  color: #0b0e4fc4;
+  font-style: italic;
+}
+
+#author {
+  color: #64678ede;
+  margin-top: -6px;
+  font-size: 0.875em;
+}
+
+
